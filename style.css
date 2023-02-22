@@ -41,7 +41,12 @@ nav {
 
 header .navbar ul {
     display: flex;
+    align-items: center;
     gap: 1rem;
+}
+
+.ham{
+    display: none;
 }
 
 header .navbar ul li {
@@ -89,6 +94,7 @@ header .intro {
 
     margin-bottom: 5rem;
 }
+
 
 .container img {
     max-width: 100%;
@@ -146,3 +152,37 @@ h2 {
     justify-content: center;
     align-items: center;
 }
+
+
+
+
+/* Responsive */
+
+@media screen and (max-width: 900px) {
+
+    .container{
+        grid-template-columns: 1fr;
+    }
+    
+    header .intro {
+        width: 90%;
+    }
+    
+    .team {
+    
+        width: 80%;
+    }
+
+    .desk{
+        display: none;
+
+    }
+
+    .ham{
+        display: inline-block;
+    }
+}
+
+
+
+
