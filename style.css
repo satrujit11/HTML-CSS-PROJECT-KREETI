@@ -104,6 +104,7 @@ header .intro {
 h2 {
     font-size: 2.4rem;
     margin-bottom: 2.4rem;
+    font-weight: 400;
 }
 
 .container p {
@@ -185,6 +186,10 @@ h2 {
 
     header .navbar ul li{
         padding: 0;
+    }
+
+    h1{
+        font-size: 5.2rem;
     }
     
 }
