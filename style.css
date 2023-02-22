@@ -180,7 +180,13 @@ h2 {
 
     .ham{
         display: inline-block;
+
     }
+
+    header .navbar ul li{
+        padding: 0;
+    }
+    
 }
 
 
